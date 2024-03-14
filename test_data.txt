@@ -1,0 +1,2 @@
+/home/pi/Desktop/USCT/ultrasound/data33.npy	/home/pi/Desktop/USCT/velocity_maps/data33.npy
+/home/pi/Desktop/USCT/ultrasound/data34.npy	/home/pi/Desktop/USCT/velocity_maps/data34.npy
