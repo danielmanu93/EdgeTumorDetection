@@ -1,5 +1,5 @@
 # EdgeTumorDetection
-Breast Cancer Tumor Detection on Resource-Limited Edge Devices  
+## Breast Cancer Tumor Detection on Resource-Limited Edge Devices  
 This project explores the use of convolutional neural networks (CNN) to learn a mapping from ultrasound computed tomography (USCT) dataset to speed of sound maps. We trained the CNN using a supervised learning approach with a task-based loss function whose task is to preserve the features of the image that are important to the detection of abrasions. There are two types of training: (1) The CNN is trained using the USCT data and their corresponding phantom images. Here, the network learns to mapping between the USCT data and phantoms. The trained network is then used to predict the phantoms of new unseen USCT dataset. (2) The CNN is trained using the phantoms and their corresponding tumor masks. The trained network is used to reconstruct the tumors of new phantoms. 
 
 The network architecture consists of an encoder - decoder architecture. Here, the USCT data is encoded to a high dimensional latent space and decoded to an image space. The network consists of several layers of convolutions in both encoder and decoder. 
